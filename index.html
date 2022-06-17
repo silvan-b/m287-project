@@ -1,146 +1,22 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title>CB</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&family=Staatliches&family=Titan+One&family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet"> <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
 </head>
-
 <body>
-<div class="wrapper">
-    <header>
-        <nav>
-            <div class="menu-icon">
-                <i class=" fa fa-bars fa-2x"></i>
-            </div>
+<h1>Hello, world!</h1>
 
-            <div class="logo">PANDEMIC RECOVERY AG Dings</div>
-            <div class="menu">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./Blog.html">Blog</a></li>
-                    <li><a href="./kontakt.html">Kontakt</a></li>
-                    <li><a href="./fqa.html">FAQ</a></li>|
-                    <li><a href="">Deutsch</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="content">
-            <section id="home"></section>
-            <div class="text-frontpage">
-                <h1>Erinnerungen Schaffen</h1>
-            </div>
-            <div class="image-frontpage">
-                <img src="img/dustin-humes-gQoYixf4zC8-unsplash.jpg" alt="sonnenuntergang" class="background-img">
-            </div>
-            </section>
-    </header>
-    <main>
-        <div class="flex-container img-text">
-            <div class="text-right-balon">
-                <h3>Datum</h3>
-                <h1>
-                    Hochhinaus
-                </h1>
-                <p> Webflow, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das
-                    Software as a
-                    Service für die
-                    Erstellung und das Hosting von Websites anbietet. Seine visuelle
-                    Online-Editor-Plattform</p>
-            </div>
-
-            <div class="flex-img-left-balon">
-                <img src="img/balonq.jpg" alt="balon">
-            </div>
-        </div>
-        <div class="flex-container">
-            <div class="flex-img-left-balon img-text">
-                <img src="img/gipfelsteiger.jpg" alt="balon">
-            </div>
-            <div class="text-left-balon">
-                <h3>Datum</h3>
-                <h1>
-                    Gipfelsteiger
-                </h1>
-                <p> Webflow, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das
-                    Software as a
-                    Service für die
-                    Erstellung und das Hosting von Websites anbietet. Seine visuelle
-                    Online-Editor-Plattform</p>
-            </div>
-        </div>
-        <div class="flex-container img-text">
-            <div class="text-right-balon">
-                <h3>Datum</h3>
-                <h1>
-                    Erforschen
-                </h1>
-                <p> Webflow, Inc. ist ein US-amerikanisches Unternehmen mit Sitz in San Francisco, das
-                    Software as a
-                    Service für die
-                    Erstellung und das Hosting von Websites anbietet. Seine visuelle
-                    Online-Editor-Plattform</p>
-            </div>
-
-            <div class="flex-img-left-balon">
-                <img src="img/child.jpg" alt="Kind am erforschhen">
-            </div>
-
-        </div>
-        <div class="kommnetare">
-            <img src="Img/Screenshot 2022-05-31 131833.jpg" alt="Kommentares">
-        </div>
-        <footer>
-            <div class="foot">
-                <div class="footl">
-                    <div class="">
-                        <h2> PANDEMIC RECOVERY AG
-                            <h2>
-                    </div>
-
-                    </p><br> ABenteuerstrasse <br> 8840 Zürich</p>
-
-                </div>
-                <div class="footr">
-                    <p>
-                        <a href="mailto:recover@pandemic.example">recover@pandemic.example</a> <br>
-                        <a href="tel:+41445205467">+41445205467</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
-</div>
-
-</main>
-
-
-<script type="text/javascript">
-    //Menu toggle-effect
-    $(document).ready(function () {
-        $(".menu-icon").on("click", function () {
-            $("nav ul").toggleClass("showing");
-        });
-    });
-    //Scrolling Effect
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('black');
-        } else {
-            $('nav').removeClass('black')
-        }
-    });
-
-</script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>
