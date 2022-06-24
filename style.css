@@ -79,6 +79,10 @@ form {
     justify-content: center;
 }
 
+.kontaktformular h3 {
+    color: darkslategray;
+}
+
 .submit {
     color: darkslategray !important;
 }
@@ -146,7 +150,7 @@ form {
 
     section.intro .topic h1 {
         font-size: 20pt;
-        font-weight: 700;
+        font-weight: 800;
         margin-bottom: 25px;
 
     }
