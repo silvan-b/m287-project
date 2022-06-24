@@ -132,6 +132,11 @@ form {
 
 }
 
+.foot h3 {
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
 /*Responsive*/
 
 @media screen and (max-width: 720px) {
